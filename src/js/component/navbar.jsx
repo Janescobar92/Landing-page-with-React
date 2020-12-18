@@ -52,7 +52,7 @@ export const Navbar = () => {
 							aria-label="Search"
 						/>
 						<button
-							className="btn btn-outline-success"
+							className="btn btn-outline-success ml-1"
 							type="submit">
 							Search
 						</button>
