@@ -1,13 +1,17 @@
 import React from "react";
-
-//include images into your bundle
-import { MyFooter } from "../component/footer.jsx";
+import { MycardsSection } from "../component/cards.jsx";
+import { Navbar } from "../component/navbar.jsx";
+import { Jumbotron } from "../component/jumbotron.jsx";
+import { Footer } from "../component/footer.jsx";
 
 //create your first component
 export function Home() {
 	return (
 		<div>
-			<MyFooter />
+			<Navbar />
+			<Jumbotron />
+			<MycardsSection />
+			<Footer />
 		</div>
 	);
 }
